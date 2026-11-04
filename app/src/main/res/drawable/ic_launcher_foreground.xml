@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <group android:pivotX="54" android:pivotY="54" android:scaleX="0.82" android:scaleY="0.82">
+        <!-- üst kayış -->
+        <path android:fillColor="#E53935" android:strokeColor="#111111" android:strokeWidth="2.2"
+            android:pathData="M45,22h18a3,3 0 0 1 3,3v14H42V25a3,3 0 0 1 3,-3z"/>
+        <path android:fillColor="#111111" android:pathData="M48,25.5h12v2h-12z"/>
+        <path android:fillColor="#3A1010" android:pathData="M49,29.5h10a2,2 0 0 1 2,2v4h-14v-4a2,2 0 0 1 2,-2z"/>
+        <!-- alt kayış -->
+        <path android:fillColor="#E53935" android:strokeColor="#111111" android:strokeWidth="2.2"
+            android:pathData="M42,69h24v14a3,3 0 0 1 -3,3H45a3,3 0 0 1 -3,-3z"/>
+        <path android:fillColor="#3A1010" android:pathData="M47,72.5h14v4a2,2 0 0 1 -2,2h-10a2,2 0 0 1 -2,-2z"/>
+        <path android:fillColor="#111111" android:pathData="M48,80.5h12v2h-12z"/>
+        <!-- yan düğmeler -->
+        <path android:fillColor="#111111" android:pathData="M32,45h4v5h-4z"/>
+        <path android:fillColor="#111111" android:pathData="M32,58h4v5h-4z"/>
+        <path android:fillColor="#111111" android:pathData="M72,51.5h4v5h-4z"/>
+        <!-- kasa -->
+        <path android:fillColor="#E53935" android:strokeColor="#111111" android:strokeWidth="2.5"
+            android:pathData="M48,35h12a13,13 0 0 1 13,13v12a13,13 0 0 1 -13,13H48a13,13 0 0 1 -13,-13V48a13,13 0 0 1 13,-13z"/>
+        <!-- kadran -->
+        <path android:fillColor="#FFFFFF" android:strokeColor="#111111" android:strokeWidth="2.2"
+            android:pathData="M40,54a14,14 0 1,0 28,0a14,14 0 1,0 -28,0"/>
+        <!-- geri sayım dilimi (12 → 4) -->
+        <path android:fillColor="#FFC9C7"
+            android:pathData="M54,54L54,42A12,12 0 0,1 64.39,60z"/>
+        <!-- saat çizgileri -->
+        <path android:fillColor="#111111" android:pathData="M53.2,41.5h1.6v3h-1.6z"/>
+        <path android:fillColor="#111111" android:pathData="M53.2,63.5h1.6v3h-1.6z"/>
+        <path android:fillColor="#111111" android:pathData="M41.5,53.2h3v1.6h-3z"/>
+        <path android:fillColor="#111111" android:pathData="M63.5,53.2h3v1.6h-3z"/>
+        <!-- akrep ve yelkovan -->
+        <path android:fillColor="#00000000" android:strokeColor="#111111" android:strokeWidth="2.2"
+            android:strokeLineCap="round" android:pathData="M54,54L54,45.5"/>
+        <path android:fillColor="#00000000" android:strokeColor="#E53935" android:strokeWidth="2"
+            android:strokeLineCap="round" android:pathData="M54,54L62,58.6"/>
+        <path android:fillColor="#111111" android:pathData="M52,54a2,2 0 1,0 4,0a2,2 0 1,0 -4,0"/>
+    </group>
+</vector>

@@ -1,0 +1,20 @@
+<resources>
+    <color name="bg">#0B0C10</color>
+    <color name="ic_launcher_background">#FFF3E6</color>
+
+    <style name="Theme.FloatTimer" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Kilit ekranı: duvar kağıdının üstünde yarı saydam -->
+    <style name="Theme.FloatTimer.Lock" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

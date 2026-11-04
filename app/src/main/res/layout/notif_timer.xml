@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kilit ekranı / bildirim paneli widget'ı: [duraklat] [sıfırla] ......... 34:32 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_widget"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="10dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/btn_toggle"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="@drawable/bg_widget_btn_main"
+        android:contentDescription="Başlat / duraklat"
+        android:padding="12dp"
+        android:src="@drawable/ic_pause" />
+
+    <ImageView
+        android:id="@+id/btn_reset"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/bg_widget_btn"
+        android:contentDescription="Sıfırla"
+        android:padding="12dp"
+        android:src="@drawable/ic_reset" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.12"
+            android:text="KRONOMETRE"
+            android:textColor="#B3FFFFFF"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Chronometer
+            android:id="@+id/chrono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:fontFeatureSettings="tnum"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="#FF8A2B"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/static_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:fontFeatureSettings="tnum"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="#FF8A2B"
+            android:textSize="34sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>
